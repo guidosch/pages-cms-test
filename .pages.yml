@@ -11,9 +11,9 @@ content:
         type: string
       - name: Process
         type: string
-      - name: body
-        type: rich-text
       - name: status
         type: select
         options:
           values: [Draft, Review, Published]
+      - name: body
+        type: rich-text
