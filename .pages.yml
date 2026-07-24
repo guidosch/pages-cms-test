@@ -17,3 +17,20 @@ content:
           values: [Draft, Review, Published]
       - name: body
         type: rich-text
+  - name: requirements
+    label: Requirements
+    type: collection
+    path: requirements
+    fields:
+      - name: title
+        type: string
+      - name: Anforderung
+        type: string
+      - name: Process
+        type: string
+      - name: status
+        type: select
+        options:
+          values: [Draft, Review, Published]
+      - name: body
+        type: rich-text
